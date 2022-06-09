@@ -305,7 +305,7 @@ $tempname = explode('.', $fileName);
 $permext = strtolower(end($tempname));
 
 $rand = rand(465,8585);
-$destination = "assets/uploads/".$rand.".".$permext;
+$destination = "assets/images/".$rand.".".$permext;
 
 $validExt = array('jpg','jpeg','png','gif');
 
